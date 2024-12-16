@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D (void);
+extern void PlayerColor__ctor_mE670D382A2BBDB7EA02B8218442BF8B7987B73D4 (void);
+extern void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (void);
+extern void GameController_SetGameControllerReferenceOnButtons_mBC5E6D38C36793B3D2B433B86DD05F89ED95EFA1 (void);
+extern void GameController_SetStartingSide_mE8B4ED393725D2EB033DDA778AAE8E15C10F1B51 (void);
+extern void GameController_StartGame_mFCA6A8FA880B305904C014360F87A4685B76D0BE (void);
+extern void GameController_GetPlayerSide_m43B4FB7F31954DBD96071C376E9DD0FEA1E0AB3B (void);
+extern void GameController_EndTurn_mC3A7E8E19D01547B9B77ACCC1AF66BB5C5788D8B (void);
+extern void GameController_ChangeSides_m1F6147DC7FAD05D4F9E310DEC006C77C4E7A9177 (void);
+extern void GameController_GameOver_m5FEFA7F75D019DC324091370F2ACF4501780A591 (void);
+extern void GameController_SetGameOverText_m57330409306CDA0F15855BA467894FD108343D1C (void);
+extern void GameController_RestartGame_m7F515C93317011A093BC6354949206D6DE4329F0 (void);
+extern void GameController_SetBoardInteractable_m5AC54A1D396F69085D9EAA0D37A4A7D74D0B43E3 (void);
+extern void GameController_SetPlayerColors_m00FB2FF44C0073ABB8652B1D33CCB4CA2E4FBCF8 (void);
+extern void GameController_SetPlayerButtons_m06C61BD38D3530853D0F9950E38F959FD5833C1F (void);
+extern void GameController_SetPlayerColorsInactive_m5E5315A8930C82B2F2EAA0A8A4C62BE875480732 (void);
+extern void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (void);
+extern void GridSpace_SetGameControllerReference_m68DA181C5964895A690B3DB50669A13F3AD522D4 (void);
+extern void GridSpace_SetSpace_mAC1277B70545F0235F2670534C1EC7F2E12C3C0D (void);
+extern void GridSpace__ctor_m0DBF24088768E7CC4DD19698710D2295FF5D9AD0 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D,
+	PlayerColor__ctor_mE670D382A2BBDB7EA02B8218442BF8B7987B73D4,
+	GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF,
+	GameController_SetGameControllerReferenceOnButtons_mBC5E6D38C36793B3D2B433B86DD05F89ED95EFA1,
+	GameController_SetStartingSide_mE8B4ED393725D2EB033DDA778AAE8E15C10F1B51,
+	GameController_StartGame_mFCA6A8FA880B305904C014360F87A4685B76D0BE,
+	GameController_GetPlayerSide_m43B4FB7F31954DBD96071C376E9DD0FEA1E0AB3B,
+	GameController_EndTurn_mC3A7E8E19D01547B9B77ACCC1AF66BB5C5788D8B,
+	GameController_ChangeSides_m1F6147DC7FAD05D4F9E310DEC006C77C4E7A9177,
+	GameController_GameOver_m5FEFA7F75D019DC324091370F2ACF4501780A591,
+	GameController_SetGameOverText_m57330409306CDA0F15855BA467894FD108343D1C,
+	GameController_RestartGame_m7F515C93317011A093BC6354949206D6DE4329F0,
+	GameController_SetBoardInteractable_m5AC54A1D396F69085D9EAA0D37A4A7D74D0B43E3,
+	GameController_SetPlayerColors_m00FB2FF44C0073ABB8652B1D33CCB4CA2E4FBCF8,
+	GameController_SetPlayerButtons_m06C61BD38D3530853D0F9950E38F959FD5833C1F,
+	GameController_SetPlayerColorsInactive_m5E5315A8930C82B2F2EAA0A8A4C62BE875480732,
+	GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9,
+	GridSpace_SetGameControllerReference_m68DA181C5964895A690B3DB50669A13F3AD522D4,
+	GridSpace_SetSpace_mAC1277B70545F0235F2670534C1EC7F2E12C3C0D,
+	GridSpace__ctor_m0DBF24088768E7CC4DD19698710D2295FF5D9AD0,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	4639,
+	4639,
+	4639,
+	4639,
+	3759,
+	4639,
+	4536,
+	4639,
+	4639,
+	3759,
+	3759,
+	4639,
+	3684,
+	2001,
+	3684,
+	4639,
+	4639,
+	3759,
+	4639,
+	4639,
+	6848,
+	4639,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
